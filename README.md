@@ -13,7 +13,7 @@ as long as it is not needed (e.g. in small application, not public project etc.)
 Requirements
 ------
 - PHP 5.3.1 or newer
-- Nette 2.1 or newer
+- Nette 2.3 or newer
 
 
 Installation

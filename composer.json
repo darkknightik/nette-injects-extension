@@ -1,5 +1,5 @@
 {
-	"name": "majkl578/nette-injects-extension",
+	"name": "darkknightik/nette-injects-extension",
 	"type": "nette-addon",
 	"keywords": ["nette", "di", "dependency injection", "inject", "autowire"],
 	"authors": [
@@ -11,7 +11,7 @@
 	"license": "MIT",
 	"require": {
 		"php": ">=5.3.1",
-		"nette/nette": "~2.1.0-RC2@rc"
+		"nette/nette": ">=2.1.0-RC2@rc"
 	},
 	"autoload": {
 		"psr-0": {

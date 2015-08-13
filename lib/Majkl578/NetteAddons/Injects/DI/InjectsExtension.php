@@ -32,7 +32,7 @@ class InjectsExtension extends CompilerExtension
 			/** @var $def ServiceDefinition */
 			$class = $def->class ?: ($def->factory ? $def->factory->entity : NULL);
 
-			if (!$def->shared || !$class || !class_exists($class)) {
+			if (!$class || !class_exists($class)) {
 				continue;
 			}
 
